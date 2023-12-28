@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin-right: 25px;
+      margin-left: 25px;
+      padding: 0;
+      background-image: url(lake.jpg);
+      background-size: cover;
+    }
+    .navbar {
+      overflow: hidden;
+      background-color: rgb(60, 148, 170);
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f8f7f7;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin-right: -10px;
+    }
+    .navbar a:hover {
+      background-color: #39a8c4;
+      color: rgb(82, 163, 174);
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .profile {
+      text-align: center;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .profile h1 {
+      margin: 0;
+      padding: 0;
+      color: #000000;
+    }
+    .profile p {
+      margin: 0;
+      padding: 0;
+      color: #000000;
+    }
+    .education {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .education .school {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(79, 179, 209);
+      text-align: center;
+      line-height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #sd, #smp, #sma {
+      display: block;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 20px;
+      text-align: center;
+      background-color: rgb(79, 183, 209);
+      margin-top: 20px;
+    }
+  </style>
+  
+  <title>Tentang Saya</title>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="container">
+    <div class="profile">
+      <img src="wibu.jpg" alt="Profile Picture">
+      <br>
+
+      <p>Mahasiswa Teknik Informatika</p>
+      <p>Universitas PGRI Madiun</p>
+    </div>
+    <div class="education">
+        <div class="school" data-text="SD"><a href="#sd">SD</a></div>
+        <div class="school" data-text="SMP"><a href="#smp">SMP</a></div>
+        <div class="school" data-text="SMA"><a href="#sma">SMA</a></div>
+    </div>
+    <div id="sd">
+        <h2>SD</h2>
+        <p>Saya bersekolah di Sekolah Dasar Muhammadiyah 1 Magetan, jarak rumah saya ke sekolah lumayan jauh sekitar 5 kilometer dari rumah. 
+            Jadi setiap saya berangkat sekolah dan pulang sekolah selalu dijemput oleh orang tua saya.
+            dan terkadang saya menebeng dengan tetangga saya
+        </p>
+    </div>
+    <div id="smp">
+        <h2>SMP</h2>
+        <p>Setelah saya lulus dari Sekolah Dasar, saya melanjutkan seklah di SMPN 3 MaMagetan. Sama seperti Sekolah Dasar, jarak dari rumah ke sekolah juga tergolong lumayan jauh, 
+            jadi mulai dari tahun ajaran baru sampai kelas 8 smp saya diantar jemput oleh orang tua dan terkadang saya berbonceng dengan teman saya.
+            pada kelas 9 saya sudah membawa motor sendiri, walaupun tidak memiliki sim dan dibawah umur saya tetap mematuhi rambu lalu lintas.  
+        </p>
+    </div>
+    <div id="sma">
+        <h2>SMA</h2>
+        <p>Setelah lulus dari SMP saya melanjutkan sekolah di Sekolah Menegah Atas Negeri 1 Sukomoro. sama seperti kelas 9 smp dahulu, saya sudah berangkat dan pulang menggunakan motor sendiri.
+            Waktu SMA memasuki jurusan MIPA. 
+        </p>
+    </div>
+</body>
+</html>
